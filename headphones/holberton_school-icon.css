@@ -1,0 +1,32 @@
+/* holberton_school-icon.css - Example minimal import for custom font icons */
+@font-face {
+  font-family: 'holberton_school_icon';
+  src: url('holberton_school-icon.eot');
+  src: url('holberton_school-icon.eot?#iefix') format('embedded-opentype'),
+       url('holberton_school-icon.woff2') format('woff2'),
+       url('holberton_school-icon.woff') format('woff'),
+       url('holberton_school-icon.ttf') format('truetype'),
+       url('holberton_school-icon.svg#holberton_school_icon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+.icon {
+  font-family: 'holberton_school_icon';
+  font-style: normal;
+  font-weight: normal;
+  speak: none;
+  display: inline-block;
+  text-decoration: inherit;
+  width: 1em;
+  margin-right: 0.5em;
+  text-align: center;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1em;
+  font-size: 2.5em;
+  color: var(--accent);
+}
+.icon-audio:before { content: '\e001'; }
+.icon-video:before { content: '\e002'; }
+.icon-music:before { content: '\e003'; }
+.icon-ear:before { content: '\e004'; }

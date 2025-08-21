@@ -1,0 +1,46 @@
+ /* Contact section */
+        .contact-section {
+            background: #fff;
+            padding: 110px 0;
+        }
+
+        .contact-form {
+            max-width: 335px;
+            margin: 0 auto;
+            display: flex;
+            flex-direction: column;
+            gap: 45px;
+        }
+
+        .form-group {
+            position: relative;
+        }
+
+        .form-group label {
+            font-size: 14px;
+            color: var(--text-dark);
+            font-weight: 600;
+            margin-bottom: 8px;
+            display: block;
+        }
+
+        .form-group input,
+        .form-group textarea {
+            width: 100%;
+            padding: 0;
+            border: none;
+            border-bottom: 1px solid #071629;
+            font-size: 14px;
+            background: transparent;
+            outline: none;
+            font-family: inherit;
+        }
+
+        .form-group input {
+            height: 32px;
+        }
+
+        .form-group textarea {
+            height: 60px;
+            resize: none;
+        }
